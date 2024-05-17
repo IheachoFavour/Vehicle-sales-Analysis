@@ -46,6 +46,8 @@ Analyzed a comprehensive vehicle sales dataset, exploring relationships between 
 - Yearly distribution of selling price
 
 ## *Data Analysis*
+![image](https://github.com/IheachoFavour/Vehicle-sales-Analysis/assets/125609035/88541b04-6de5-4647-84ea-5b4844420284)
+
 ### Some interesting questions:
 1. How does vehicle condition impact the selling price?
 ``` python
@@ -63,6 +65,8 @@ plt.ylabel('Average Selling Price')
 plt.title('Average Selling Price by Vehicle Condition')
 plt.show()
 ```
+![image](https://github.com/IheachoFavour/Vehicle-sales-Analysis/assets/125609035/e43649c5-64ff-4a1b-b2b3-2f0329b22c98)
+
 2. How does the market value estimate (MMR) compare to actual selling prices?
 ``` python
 plt.scatter(vehicle_df['mmr'], vehicle_df['sellingprice'])
@@ -76,6 +80,8 @@ plt.show()
 sns.scatterplot(x = vehicle_df.odometer , y =vehicle_df.sellingprice, alpha= 0.5);
 sns.regplot(x='odometer', y='sellingprice', data=vehicle_df, scatter=False, color='red')
 ```
+![image](https://github.com/IheachoFavour/Vehicle-sales-Analysis/assets/125609035/0ff573df-4127-42db-96db-abb33e2d0afe)
+
 ## *Inferences and Conclusions*
 1. High mileage (odometer) tends to negatively impact both the market value and selling price.
 2. MMR, as a market valuation metric, aligns very closely with actual selling prices, showing that it is a reliable indicator in this dataset.
