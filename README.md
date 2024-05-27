@@ -9,6 +9,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Inferences and Conclusions](#inferences-and-conclusions)
+- [Final Visualisation in Tableau](#final-visualisation-in-tableau)
 - [Recommedations](#recommedations)
   
 ## *Project Overview*
@@ -19,6 +20,7 @@ Analyzed a comprehensive vehicle sales dataset, exploring relationships between 
 - Pandas for data manipulation and analysis
 - Matplotlib and Seaborn for data visualization
 - Conducted exploratory data analysis and derived insights
+- Tableau for visualisation and dashboards. [View Here](https://public.tableau.com/app/profile/favour.iheacho/vizzes)
 - Kaggle for the dataset source. (car_prices.csv) [Download Here](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data)
 
 ## *Key Accomplishments*:
@@ -91,6 +93,10 @@ sns.regplot(x='odometer', y='sellingprice', data=vehicle_df, scatter=False, colo
 6. The lowest selling price is 1,709.14 for the 20+ vehicle age category in the "poor" condition.
 7. Though black occurs the most in the data frame, Charcoal is the color with the highest mean average selling price of 16208.94
 8. The vehicle of 458 Italia has the highest average selling price of 183000
+
+## *Final Visualisation in Tableau*
+The dataset that has been cleaned was turned to .csv file and visualised in Tableau. [View the DataSet here](https://github.com/IheachoFavour/Vehicle-sales-Analysis-python/blob/master/car_prices_cleaned.zip)
+![image](https://github.com/IheachoFavour/Vehicle-sales-Analysis-python/assets/125609035/9cd7e5cd-8ee0-44f1-854c-abc6e0f4f687)
 
 ## Recommedations
 1. Focus on Mileage Management: Given the negative correlation between high mileage and both market value and selling price, dealers should prioritize sourcing and maintaining vehicles with lower odometer readings. This may involve targeted procurement strategies, as well as effective maintenance and repair programs to preserve low-mileage vehicles.
